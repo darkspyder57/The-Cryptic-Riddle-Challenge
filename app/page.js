@@ -114,7 +114,7 @@ export default function Home() {
       />
       <input
         type="text"
-        placeholder="Your Submitted Code Github Link"
+        placeholder="Your Submitted Code Github Link"  //https://github.com/darkspyder57/Cryptic-Riddle-Backend
         value={userData.user_submitted_code}
         onChange={(e) => setUserData({ ...userData, user_submitted_code: e.target.value })}
       />
