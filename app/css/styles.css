@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Main Container */
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+
+  h1{
+    color: black;
+  }
+  h2{
+    color: black;
+  }
+  h3{
+    color: black;
+  }
+  
+  /* Input Fields */
+  textarea, input, select, button {
+    font-family: Arial, sans-serif;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px grey;
+    border: none;
+    outline: 0;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error & Success Messages */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  p[style="color: red;"] {
+    color: red;
+  }
+  
+  p[style="color: green;"] {
+    color: green;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+    textarea, input, select, button {
+      font-size: 14px;
+    }
+  }
+  
